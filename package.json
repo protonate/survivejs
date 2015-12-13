@@ -1,0 +1,24 @@
+{
+  "name": "survivejs",
+  "version": "1.0.0",
+  "description": "follow along with Survive.js book",
+  "main": "webpack.config.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/protonate/survivejs.git"
+  },
+  "author": "Nathan Guisinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/protonate/survivejs/issues"
+  },
+  "homepage": "https://github.com/protonate/survivejs#readme",
+  "scripts": {
+    "start": "webpack-dev-server"
+  }  
+}
