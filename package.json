@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "follow along with Survive.js book",
   "main": "webpack.config.js",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
   "devDependencies": {
     "babel-loader": "^5.4.0",
     "css-loader": "^0.23.0",
