@@ -18,16 +18,24 @@ var common = {
     path: PATHS.build,
     filename: 'bundle.js'
   },*/
+  resolve: {
+      extensions: ['', '.js', '.jsx']
+    },
   module: {
     loaders: [
       {
         test: /\.css$/,
         loaders: ['style', 'css'],
         include: PATHS.app
+      },
+      {
+        test: /\.jsx?$/,
+        loaders: ['babel'],
+        include: PATHS.app
       }
     ]
   },
-  
+
   plugins: [
     // Important! move HotModuleReplacementPlugin below
     //new webpack.HotModuleReplacementPlugin(),
